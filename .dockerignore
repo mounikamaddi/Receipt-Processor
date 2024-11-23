@@ -1,0 +1,7 @@
+*.log
+*.md
+HELP.md
+mvnw
+mvnw.cmd
+.idea/
+*.iml
