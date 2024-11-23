@@ -10,21 +10,30 @@ This project implements a receipt processing service using **Java** and **Spring
 - Retrieve the points earned for a specific receipt.
 
 ---
-
 ## Running the Application
 
+### Prerequisite: Build the JAR File
+Before building the Docker image, you need to generate the JAR file using Maven. Follow these steps:
+
+1. Navigate to the project directory in your command prompt or Terminal:
+   ```bash
+   cd path/to/your/project
+   
+2. Run the following command to build the project:
+   ```bash
+   mvn clean package
 ### Using Docker
-1. **Build the Docker image**:
+3. **Build the Docker image**:
    ```bash
    docker build -t receipt-processor .
    ```
 
-2. **Run the Docker container**:
+4. **Run the Docker container**:
    ```bash
    docker run -p 8080:8080 receipt-processor
    ```
 
-3. Access the application at:
+5. Access the application at:
    ```
    http://localhost:8080
    ```
