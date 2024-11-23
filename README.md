@@ -120,7 +120,7 @@ If you prefer to build and run the application locally:
 ## Instructions for Reviewers
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mounikamaddi/Receipt-Processor-API.git
+   git clone https://github.com/mounikamaddi/Receipt-Processor.git
    ```
 2. Build and run the application using Docker:
    ```bash
